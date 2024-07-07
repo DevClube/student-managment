@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: student-managment-back
+
+  datasource:
+    url: jdbc:h2:mem:student-db
+
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 8021
